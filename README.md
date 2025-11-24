@@ -6,7 +6,15 @@
 
   Run `brew install nvm` to install the node version manager
 
-  Run `export NVM_DIR="$HOME/.nvm" [ -s "$(brew --prefix nvm)/nvm.sh" ] && . "$(brew --prefix nvm)/nvm.sh"` to add nvm to your shell profile (so you can run it anywhere)
+  Run `export NVM_DIR="$HOME/.nvm"`
+  
+  Run `[ -s "$(brew --prefix nvm)/nvm.sh" ] && . "$(brew --prefix nvm)/nvm.sh"` to be able to run nvm anywhere
+
+  Add the text below to the end of the file: 
+
+  export NVM_DIR="$HOME/.nvm"
+  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+  [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
 
   Run `nvm install 18` and then `nvm use 18` this will install node version 18 and then will set it as your default node
 
