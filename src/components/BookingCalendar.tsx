@@ -62,7 +62,7 @@ export function BookingCalendar() {
 
   return (
     <section id="booking" className="py-16">
-      <div className="text-center mb-16">
+      {/*<div className="text-center mb-16">
         <h2 className="text-4xl font-light tracking-wide text-slate-800 mb-4">
           Reserve Your <span className="font-serif italic">Day</span>
         </h2>
@@ -70,7 +70,7 @@ export function BookingCalendar() {
           Choose the perfect date for your outdoor escape
         </p>
       </div>
-
+      */}
       <div className="grid lg:grid-cols-2 gap-10">
         <div className="bg-white rounded-3xl p-8 shadow-sm border border-slate-100">
           <div className="flex items-center gap-3 mb-8">

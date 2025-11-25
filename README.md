@@ -31,3 +31,6 @@
 
   You can view the build status here: https://github.com/ubkenneths/moodpicnic/actions
   Website url: https://ubkenneths.github.io/moodpicnic/
+
+
+Run `npm install --save-dev @types/react` to get rid of the red lines in the code files.
