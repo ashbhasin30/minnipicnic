@@ -26,10 +26,10 @@ export function ContactForm() {
     <section className="py-16">
       <div className="text-center mb-16">
         <h2 className="text-4xl font-light tracking-wide text-slate-800 mb-4">
-          Get in <span className="font-serif italic">Touch</span>
+          Book <span className="font-serif italic">Now</span>
         </h2>
         <p className="text-slate-500 text-lg max-w-2xl mx-auto">
-          Have questions or special requests? We'd love to hear from you
+          Please submit the form below with your contact and event information
         </p>
       </div>
 
@@ -50,10 +50,6 @@ export function ContactForm() {
                 <Label htmlFor="phone" className="text-slate-600 mb-2">Phone Number</Label>
                 <Input id="phone" name="phone" type="tel" placeholder="(555) 123-4567" required className="rounded-2xl border-slate-200 h-12" />
               </div>
-              <div>
-                <Label htmlFor="eventDate" className="text-slate-600 mb-2">Preferred Date</Label>
-                <Input id="eventDate" name="eventDate" type="date" required className="rounded-2xl border-slate-200 h-12" />
-              </div>
             </div>
           </div>
 
@@ -61,8 +57,16 @@ export function ContactForm() {
             <h3 className="text-xl font-light pb-4 border-b border-slate-100 mb-8 text-slate-800">Event Details</h3>
             <div className="grid md:grid-cols-2 gap-6">
               <div>
-                <Label htmlFor="location" className="text-slate-600 mb-2">Preferred Location</Label>
-                <Input id="location" name="location" placeholder="Central Park" required className="rounded-2xl border-slate-200 h-12" />
+                <Label htmlFor="eventDate" className="text-slate-600 mb-2">Date</Label>
+                <Input id="eventDate" name="eventDate" type="date" required className="rounded-2xl border-slate-200 h-12" />
+              </div>
+              <div>
+                <Label htmlFor="eventTime" className="text-slate-600 mb-2">Time</Label>
+                <Input id="eventTime" name="eventTime" type="time" required className="rounded-2xl border-slate-200 h-12" />
+              </div>
+              <div>
+                <Label htmlFor="location" className="text-slate-600 mb-2">Location Address</Label>
+                <Input id="location" name="location" placeholder="Street Address, City, State, Zip Code" required className="rounded-2xl border-slate-200 h-12" />
               </div>
               <div>
                 <Label htmlFor="guests" className="text-slate-600 mb-2">Number of Guests</Label>
