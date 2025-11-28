@@ -152,8 +152,11 @@ export function RecipeGallery() {
       <div className="py-16">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-light tracking-wide text-slate-800 mb-4">
-            Available <span class="font-serif italic">Themes</span>
+            Available <span className="font-serif italic">Themes</span>
           </h2>
+          <p className="text-slate-500 text-lg max-w-2xl mx-auto">
+            Starting at $300 for 2 hours for upto 3 people
+          </p>
         </div>
       
         <div className="grid md:grid-cols-2 gap-10">
@@ -165,9 +168,9 @@ export function RecipeGallery() {
                 <span className="text-slate-700">$300</span>
               </div> */}
               <div className="p-8">
-                  <h3 className="text-2xl font-light mb-6 text-slate-800">December Red</h3>
+                  <h3 className="package-name-style font-light mb-6 text-slate-800">December Red</h3>
                   
-                  <div className="flex gap-8 text-slate-500 text-sm">
+                  {/*<div className="flex gap-8 text-slate-500 text-sm">
                     <div className="flex items-center gap-2">
                       <Clock className="size-4" strokeWidth={1.5} />
                       <span>2 hours</span>
@@ -176,7 +179,7 @@ export function RecipeGallery() {
                       <Users className="size-4" strokeWidth={1.5} />
                       <span>2-3 people</span>
                     </div>
-                  </div> 
+                  </div> */}
                 </div>
             </div>
           </div>
@@ -190,10 +193,10 @@ export function RecipeGallery() {
               </div> */}
 
               <div className="p-8">
-                  <h3 className="text-2xl font-light mb-6 text-slate-800">Seaside Blue</h3>
+                  <h3 className="package-name-style font-light mb-6 text-slate-800">Seaside Blue</h3>
                   
                   <div className="flex gap-8 text-slate-500 text-sm">
-                    <div className="flex items-center gap-2">
+                    {/*<div className="flex items-center gap-2">
                       <Clock className="size-4" strokeWidth={1.5} />
                       <span>2 hours</span>
                     </div>
@@ -201,7 +204,8 @@ export function RecipeGallery() {
                       <Users className="size-4" strokeWidth={1.5} />
                       <span>2-3 people</span>
                     </div>
-                  </div> 
+                    
+                  */}</div> 
                 </div>
             </div>
           </div>

@@ -7,22 +7,22 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center gap-3">
-            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-rose-300 to-pink-200 flex items-center justify-center shadow-sm">
+            {/*<div className="w-12 h-12 rounded-full bg-gradient-to-br from-rose-300 to-pink-200 flex items-center justify-center shadow-sm">
               <Utensils className="size-5 text-rose-700" />
-            </div>
+            </div>*/}
             <span className="text-2xl font-light tracking-wide text-slate-800">
-              Minnie Picnic
+              Minni Picnic
             </span>
           </div>
           
           <nav className="hidden md:flex items-center gap-10">
-            <a href="#weather" className="text-slate-600 hover:text-rose-500 transition-colors text-sm tracking-wide">
+            {/*}<a href="#weather" className="text-slate-600 hover:text-rose-500 transition-colors text-sm tracking-wide">
               About Us
             </a>
-
-            <Button className="bg-rose-500 hover:bg-rose-600 rounded-full shadow-sm">
+            */}
+            <a className="book-now-link-header bg-rose-500 hover:bg-rose-600 rounded-full shadow-sm" href="https://forms.gle/WFXpeAnaAZ8X1cYQ7" target="_blank">
               Book Now
-            </Button>
+            </a>
             {/* <a href="#booking" className="text-slate-600 hover:text-rose-500 transition-colors text-sm tracking-wide">
               Book
             </a>

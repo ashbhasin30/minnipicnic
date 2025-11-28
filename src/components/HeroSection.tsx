@@ -31,11 +31,11 @@ export function HeroSection() {
           </div>
           
           <h1 className="text-6xl sm:text-8xl font-light tracking-tight text-white drop-shadow-lg">
-            Minnie Picnic
+            Minni Picnic
           </h1>
           
           <p className="text-lg sm:text-xl text-white/95 max-w-2xl mx-auto leading-relaxed drop-shadow">
-            Create unforgettable moments under the open sky with curated recipes, beautiful locations, and thoughtful planning
+            Create unforgettable moments under the open sky with curated themes, beautiful locations, and thoughtful planning
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">

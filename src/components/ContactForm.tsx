@@ -25,10 +25,11 @@ export function ContactForm() {
   return (
     <section className="py-16">
       <div className="text-center mb-16">
-        <a className="book-now-link bg-rose-500 hover:bg-rose-600 rounded-full shadow-sm" href="https://forms.gle/WFXpeAnaAZ8X1cYQ7" 
+        {/*<a className="book-now-link bg-rose-500 hover:bg-rose-600 rounded-full shadow-sm" href="https://forms.gle/WFXpeAnaAZ8X1cYQ7" 
         target="_blank">
           Book <span className="font-serif italic" >Now</span>
         </a>
+        */}
       </div>
     </section>)}
 

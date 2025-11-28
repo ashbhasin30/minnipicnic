@@ -319,10 +319,18 @@
     }
   }
 
+   .package-name-style { 
+  font-family: Snell Roundhand;
+  font-size: 35px;
+  text-align: center; }
+
+ .book-now-link-header {
+    font-size: 15px;
+padding: 20px;}
+
   .book-now-link {
     font-size: 45px;
-padding: 25px;}
-
+padding: 40px;}
 
   textarea {
     resize: vertical;
