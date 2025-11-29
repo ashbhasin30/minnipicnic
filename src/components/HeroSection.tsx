@@ -20,6 +20,7 @@ export function HeroSection() {
           Your browser does not support the video tag.
         </video>
         
+        
 
         <div className="absolute inset-0 bg-gradient-to-b from-white/10 via-transparent to-white/40"></div>
       </div>
