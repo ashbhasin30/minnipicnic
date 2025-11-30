@@ -758,10 +758,6 @@ padding: 40px;}
     flex: 1;
   }
 
-  .build-my-deploy {
-    color: red;
-  }
-
   .shrink-0 {
     flex-shrink: 0;
   }

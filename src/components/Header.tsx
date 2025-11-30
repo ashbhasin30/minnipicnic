@@ -15,7 +15,7 @@ export function Header() {
             </span>
           </div>
           
-          <nav className="hidden md:flex items-center gap-10">
+          <nav className="md:flex items-center gap-10">
             {/*}<a href="#weather" className="text-slate-600 hover:text-rose-500 transition-colors text-sm tracking-wide">
               About Us
             </a>
