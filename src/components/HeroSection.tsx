@@ -15,7 +15,7 @@ export function HeroSection() {
           className="w-full h-full object-cover"
         /> */}
 
-        <video className="main-video" autoPlay loop muted>
+        <video className="main-video" playsInline autoPlay loop muted>
           <source src={video} type="video/mp4"/>
           Your browser does not support the video tag.
         </video>
