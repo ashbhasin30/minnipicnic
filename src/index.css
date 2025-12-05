@@ -570,7 +570,8 @@ padding: 40px;}
   .mb-8 {
     margin-bottom: calc(var(--spacing) * 8);
   }
-
+  
+  
   @media (min-width: 600px) {
     .mb-md-16 {
       margin-bottom: calc(var(--spacing) * 16);
